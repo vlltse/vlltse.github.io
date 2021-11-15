@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+}
+
+.firstrow {
+    display: inline-block;
+    vertical-align: top;
+    /*position: fixed;*/
+}
+
+
+#maindata {
+    height: 200px; /* Высота блока */
+    width: 70%;    /* Ширина блока */
+    margin-left: 105px;
+}
+
+img{
+    width:150px;
+    height: 200px;
+}
+
+#foto {
+    height: 200px; /* Высота блока */
+    width: 150px;  /* Ширина блока */
+    align-content: center;
+}
+
+.whatdo{
+    display: none;
+    margin-left: 260px;
+    font-size:12px  
+}
+
+.data1, .data2, .jobname, .defis, .company, button, .studyname{
+    display: inline-block;
+    /*vertical-align: top; */  
+}
+
+button{
+    margin-left: 20px;    
+}
+
+.jobname{
+    width: 600px;  /* Ширина блока */    
+}
+
+.data1, .data2{
+    width: 120px;  /* Ширина блока */
+    align-content: flex-end;
+}
