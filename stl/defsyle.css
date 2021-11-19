@@ -37,13 +37,6 @@ img{
     /*vertical-align: top; */  
 }
 
-button{
-    margin-left: 20px;    
-}
-
-.jobname{
-    width: 600px;  /* Ширина блока */    
-}
 .data1, {
     width: 70px;  /* Ширина блока */
    /* align-content: flex-end;*/
@@ -52,3 +45,12 @@ button{
     width: 120px;  /* Ширина блока */
    /* align-content: flex-end;*/
 }
+
+button{
+    margin-left: 20px;    
+}
+
+.jobname{
+    width: 600px;  /* Ширина блока */    
+}
+
