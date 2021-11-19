@@ -32,9 +32,18 @@ img{
     font-size:12px  
 }
 
-.data1, .data2, .jobname, .defis, .company, button, .studyname{
+.data1, .data2, .jobname, .defis, .company, button, .studyname {
     display: inline-block;
     /*vertical-align: top; */  
+}
+
+.data1 {
+    width: 70px;  /* Ширина блока */
+   /* align-content: flex-end;*/
+}
+.data2 {
+    width: 120px;  /* Ширина блока */
+   /* align-content: flex-end;*/
 }
 
 button{
@@ -44,11 +53,4 @@ button{
 .jobname{
     width: 600px;  /* Ширина блока */    
 }
-.data1, {
-    width: 70px;  /* Ширина блока */
-   /* align-content: flex-end;*/
-}
-.data2{
-    width: 120px;  /* Ширина блока */
-   /* align-content: flex-end;*/
-}
+
