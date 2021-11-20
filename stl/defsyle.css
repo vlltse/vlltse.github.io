@@ -1,7 +1,16 @@
 body {
     font-family: sans-serif;
 }
+.mydata{
+    font-size: 16px;   
+}
+p {
+    font-size: 14px;
+}
 
+li{
+    font-size: 12px;
+}
 .firstrow {
     display: inline-block;
     vertical-align: top;
