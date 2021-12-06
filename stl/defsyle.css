@@ -1,9 +1,7 @@
 body {
     font-family: sans-serif;
 }
-.mydata{
-    font-size: 16px;   
-}
+
 p {
     font-size: 14px;
 }
@@ -11,38 +9,48 @@ p {
 li{
     font-size: 12px;
 }
-.firstrow {
+#firstrow{
+    display: flex;
+}
+
+.firstrows {
     display: inline-block;
     vertical-align: top;
+    /*display: flex;*/
     /*position: fixed;*/
 }
 
+    img{
+        width:150px;
+        height: 200px;
+    }
 
-#maindata {
-    height: 200px; /* Высота блока */
-    width: 70%;    /* Ширина блока */
-    margin-left: 105px;
-}
+    #foto {
+        height: 200px; /* Высота блока */
+        width: 150px;  /* Ширина блока */
+        align-content: center;
+    }
 
-img{
-    width:150px;
-    height: 200px;
-}
+    #maindata {
+        height: 200px; /* Высота блока */
+        /*width: 70%;     Ширина блока */
+        margin-left: 105px;
+    }
 
-#foto {
-    height: 200px; /* Высота блока */
-    width: 150px;  /* Ширина блока */
-    align-content: center;
-}
+        .mydata{
+            font-size: 16px;   
+        }
+
 
 .whatdo{
     display: none;
-    margin-left: 210px;
+    /*margin-left: 210px;*/
     font-size:12px  
 }
 
 .data1, .data2, .jobname, .defis, .company, button, .studyname {
     display: inline-block;
+    font-size: 16px;
     /*vertical-align: top; */  
 }
 

@@ -14,10 +14,6 @@ function hideshow(page) {
     
 }
 
-/*document.addEventListener('DOMContentLoaded', function() {
-    document.querySelector('button').onclick = hideshow;
-});*/
-
 // Зачекати завантаження сторінки:
 document.addEventListener('DOMContentLoaded', function() {
     pagehiden = true;
