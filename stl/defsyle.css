@@ -76,7 +76,8 @@ li{
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: flex-start;    
+    justify-content: flex-start; 
+    flex-wrap: wrap;   
 }
 
 button{
