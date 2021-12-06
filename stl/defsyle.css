@@ -11,14 +11,16 @@ li{
 }
 #firstrow{
     display: flex;
+    align-items: flex-start;
+    /*flex-direction: row;*/
 }
 
-.firstrows {
+/*.firstrows {
     display: inline-block;
     vertical-align: top;
-    /*display: flex;*/
-    /*position: fixed;*/
-}
+    display: flex;*/
+    /*position: fixed;
+}*/
 
     img{
         width:150px;
@@ -32,15 +34,24 @@ li{
     }
 
     #maindata {
-        height: 200px; /* Высота блока */
+        /*height: 200px;  Высота блока */
         /*width: 70%;     Ширина блока */
-        margin-left: 105px;
+        /*margin-left: 105px;*/
+        margin-left: 20px;
     }
 
         .mydata{
             font-size: 16px;   
         }
 
+#workwey-head{
+    display: flex;
+    align-items: center; 
+}
+#workwey-details{
+    display: none;
+    flex-direction: column;
+}
 
 .whatdo{
     display: none;
@@ -48,22 +59,43 @@ li{
     font-size:12px  
 }
 
-.data1, .data2, .jobname, .defis, .company, button, .studyname {
+.period{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 200px;   /*Ширина блока*/
+}
+
+.jobsrow, .studyrow{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;    
+}
+
+/*.period, .jobname,.company, button, .studyname {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 16px;
     display: inline-block;
     font-size: 16px;
-    /*vertical-align: top; */  
-}
+    vertical-align: top;   
+}*/
 
-.data1 {
-    width: 70px;  /* Ширина блока */
-   /* align-content: flex-end;*/
+/* .data1 {
+   width: 70px;   Ширина блока
+   align-content: flex-end;
 }
 .data2 {
-    width: 120px;  /* Ширина блока */
-   /* align-content: flex-end;*/
-}
+    width: 120px;  Ширина блока 
+   align-content: flex-end;
+}*/
 
 button{
+    height: fit-content;
     margin-left: 20px;    
 }
 

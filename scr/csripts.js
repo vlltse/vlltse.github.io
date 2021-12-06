@@ -9,7 +9,9 @@ function hideshow(page) {
    }
    else {
         // Приховати div, переданий у аргументі функції
-        document.querySelector(`#${page}`).style.display = 'block';
+        document.querySelector(`#${page}`).style.display = 'flex';
+        //document.querySelector(`#workwey-head`).style.display = 'flex';
+        
    }
     
 }
