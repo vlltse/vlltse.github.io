@@ -10,10 +10,9 @@ function hideshow(page) {
    else {
         // Приховати div, переданий у аргументі функції
         document.querySelector(`#${page}`).style.display = 'flex';
-        //document.querySelector(`#workwey-head`).style.display = 'flex';
-        
+        //document.querySelector(`#workwey-head`).style.display = 'flex';    
    }
-    
+   document.querySelector(`#${page}`).style.animationPlayState = 'running';
 }
 
 // Зачекати завантаження сторінки:
@@ -31,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 this.innerHTML='Деталі';
                 pagehiden=true;
             }
-            hideshow(this.dataset.page);
+            hideshow(this.dataset.page);  
         }
     })
 });

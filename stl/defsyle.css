@@ -13,6 +13,19 @@ li{
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
+    padding: 5px; 
+}
+#maindata{
+    display: flex;
+    flex-direction: column;
+}
+#study, #profnav, #others{
+    background-color: rgb(226, 225, 225);
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
     img{
@@ -30,23 +43,35 @@ li{
         margin-left: 20px;
     }
         .mydata{
-            font-size: 16px;   
+            font-size: 14px;   
         }
 
 #workwey-head{
     display: flex;
     flex-direction: column;
     /*align-items: center;*/
-     
 }
+#workwey{
+    background-color: rgb(226, 225, 225);
+    padding: 10px; 
+    margin: 5px;  
+}     
 #workwey-details{
     display: none;
     flex-direction: column;
+
 }
 
 .jobsrow{
     display: flex;
     flex-direction: column;
+    background-color: rgb(202, 199, 199);
+    padding: 10px; 
+    margin: 5px; 
+    animation-name: hide;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused; 
 }
 .jobsrow-head{
     display: flex;
@@ -83,6 +108,7 @@ li{
 
 button{
     height: fit-content;
+    width: 80px;
     margin-left: 20px;    
 }
 
@@ -94,3 +120,26 @@ button{
     width: 520px;  /* Ширина блока */    
 }
 
+@keyframes hide {
+    0% {
+        opacity: 1;
+        height: 100%;
+        line-height: 100%;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    75% {
+        opacity: 0;
+        height: 100%;
+        line-height: 100%;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    100% {
+        opacity: 0;
+        height: 0px;
+        line-height: 0px;
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+}
